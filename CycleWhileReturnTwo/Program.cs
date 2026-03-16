@@ -1,12 +1,27 @@
 ﻿using System;
 
-namespace CycleWhileReturnTwo
+namespace ConsoleExperiment
 {
-   internal class Program
+   class Program
    {
       static void Main()
       {
-         Console.WriteLine("Hello World!");
+         double inputValue = 1024;
+         double result = CalculateConsole(inputValue);
+         Console.WriteLine(result);
+      }
+
+      private static double CalculateConsole(double input)
+      {
+         int iterationCount = 0;
+         while (true)
+         {
+            iterationCount++;
+            double result = input * iterationCount;
+            Console.Write(result);
+            Console.WriteLine("\nИтерация: {0}", iterationCount);
+            return result;
+         }
       }
    }
 }
