@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleExperiment
+namespace CycleWhileReturnOne
 {
    class Program
    {
