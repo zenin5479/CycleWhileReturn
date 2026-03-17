@@ -35,9 +35,6 @@ namespace CycleWhileReturnOne
          }
       }
 
-      private static double CalculateConsole(double input)
-      {
-         
-      }
+     
    }
 }
