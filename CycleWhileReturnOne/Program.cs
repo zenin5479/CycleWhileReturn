@@ -9,13 +9,8 @@ namespace CycleWhileReturnOne
          double inputValue = 1024;
          Calculate(inputValue);
 
-         //long iterations = 0;
-         //while (true)
-         //{
-         //   iterations++;
-         //   double result = inputValue * iterations;
-         //   Console.WriteLine("Итерация: {0}", result);
-         //}
+         long iterations = 0;
+       
       }
 
       private static void Calculate(double input)
