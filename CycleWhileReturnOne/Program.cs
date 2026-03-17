@@ -7,9 +7,6 @@ namespace CycleWhileReturnOne
       static void Main()
       {
          double inputValue = 1024;
-         //double result = CalculateConsole(inputValue);
-         //Console.WriteLine(result);
-
          Calculate(inputValue);
 
          //long iterations = 0;
