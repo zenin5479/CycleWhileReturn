@@ -6,21 +6,20 @@ namespace CycleWhileReturnTwo
    {
       static void Main()
       {
-         double inputValue = 1024;
-         double result = CalculateConsole(inputValue);
-         Console.WriteLine(result);
+         double inputValue = 2048;
+         Calculate(inputValue);
       }
 
-      private static double CalculateConsole(double input)
+      private static void Calculate(double input)
       {
-         int iterationCount = 0;
+         // Используем long, чтобы избежать переполнения int
+         long iterations = 0;
+         // Бесконечный цикл
          while (true)
          {
-            iterationCount++;
-            double result = input * iterationCount;
-            Console.Write(result);
-            Console.WriteLine("\nИтерация: {0}", iterationCount);
-            return result;
+            iterations++;
+            double result = input * iterations;
+            Console.WriteLine("Итерация: {0}", result);
          }
       }
    }
