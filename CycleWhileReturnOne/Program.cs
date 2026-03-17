@@ -18,8 +18,6 @@ namespace CycleWhileReturnOne
             double result = input * iterations;
             Console.WriteLine("Итерация: {0}", result);
          }
-
-         
       }
 
       private static void Calculate(double input)
