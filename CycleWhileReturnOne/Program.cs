@@ -20,8 +20,6 @@ namespace CycleWhileReturnOne
          }
       }
 
-      private static void Calculate(double input)
-      {
-      }
+      
    }
 }
