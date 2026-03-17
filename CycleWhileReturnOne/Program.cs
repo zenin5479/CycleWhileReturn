@@ -10,7 +10,7 @@ namespace CycleWhileReturnOne
          Calculate(inputValue);
       }
 
-      private  void Calculate(double input)
+      private static void Calculate(double input)
       {
          // Используем long, чтобы избежать переполнения int
          long iterations = 0;
