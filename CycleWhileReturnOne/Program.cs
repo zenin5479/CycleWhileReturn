@@ -6,6 +6,8 @@ namespace CycleWhileReturnOne
    {
       static void Main()
       {
+         double input = 2048;
+
          // Используем long, чтобы избежать переполнения int
          long iterations = 0;
          // Бесконечный цикл
