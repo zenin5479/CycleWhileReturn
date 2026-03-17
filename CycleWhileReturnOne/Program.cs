@@ -9,7 +9,7 @@ namespace CycleWhileReturnOne
          double inputValue = 1024;
          Calculate(inputValue);
 
-         long iterations = 0;
+        
        
       }
 
