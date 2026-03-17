@@ -6,7 +6,7 @@ namespace CycleWhileReturnOne
    {
       static void Main()
       {
-         
+
       }
 
       private static void Calculate(double input)
