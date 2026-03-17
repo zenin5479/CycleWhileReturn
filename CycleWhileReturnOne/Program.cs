@@ -16,7 +16,7 @@ namespace CycleWhileReturnOne
          {
             iterations++;
             double result = input * iterations;
-            Console.WriteLine("Итерация: {0}, Результат: {1}", iterations, result);
+            Console.WriteLine("Итерация: {0}, Результат: {1};", iterations, result);
          }
       }
    }
