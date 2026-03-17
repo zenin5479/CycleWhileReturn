@@ -10,6 +10,7 @@ namespace CycleWhileReturnOne
 
          // Используем long, чтобы избежать переполнения int
          long iterations = 0;
+
          // Бесконечный цикл
          while (true)
          {
