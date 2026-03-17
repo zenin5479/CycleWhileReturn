@@ -31,7 +31,5 @@ namespace CycleWhileReturnOne
             Console.WriteLine("Итерация: {0}", result);
          }
       }
-
-     
    }
 }
