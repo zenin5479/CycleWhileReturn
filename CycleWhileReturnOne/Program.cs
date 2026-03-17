@@ -8,9 +8,6 @@ namespace CycleWhileReturnOne
       {
          double inputValue = 1024;
          Calculate(inputValue);
-
-        
-       
       }
 
       private static void Calculate(double input)
