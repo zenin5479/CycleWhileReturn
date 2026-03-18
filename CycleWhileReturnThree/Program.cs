@@ -7,7 +7,7 @@ namespace CycleWhileReturnThree
       static void Main()
       {
          double input = 1024;
-         CalculateAndProcess(inputValue);
+         CalculateAndProcess(input);
       }
 
       // Основной метод расчета и обработки
