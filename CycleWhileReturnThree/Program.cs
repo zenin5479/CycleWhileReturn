@@ -21,7 +21,7 @@ namespace CycleWhileReturnThree
          while (iteration < 10)
          {
             iteration++;
-            var result = input * iteration;
+            double result = input * iteration;
 
             // Выводим результат в консоль
             Console.Write(result);
