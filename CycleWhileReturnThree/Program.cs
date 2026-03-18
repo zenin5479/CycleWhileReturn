@@ -35,7 +35,7 @@ namespace CycleWhileReturnThree
       // Метод обработки результата
       private static void ProcessResult(double value)
       {
-         // логику обработки
+         // Логика обработки
          Console.WriteLine("Обрабатываем значение: {0}", value);
 
          // Пример простой обработки - проверка на четность
