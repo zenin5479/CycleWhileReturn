@@ -1,1 +1,51 @@
-﻿
+﻿using System;
+
+namespace ConsoleExperiment
+{
+   class Program
+   {
+      static void Main()
+      {
+         double inputValue = 1024;
+         CalculateAndProcess(inputValue);
+      }
+
+      // Основной метод расчета и обработки
+      private static void CalculateAndProcess(double input)
+      {
+         int iterationCount = 0;
+         double result = 0;
+
+         // Цикл с ограничением в 10 итераций
+         while (iterationCount < 10)
+         {
+            iterationCount++;
+            result = input * iterationCount;
+
+            // Выводим результат в консоль
+            Console.Write(result);
+            Console.WriteLine("\nИтерация: {0}", iterationCount);
+
+            // Передаем результат в другой метод
+            ProcessResult(result);
+         }
+      }
+
+      // Метод для обработки результата
+      private static void ProcessResult(double value)
+      {
+         // Здесь можно добавить любую логику обработки
+         Console.WriteLine($"Обрабатываем значение: {value}");
+
+         // Пример простой обработки - проверка на четность
+         if (value % 2 == 0)
+         {
+            Console.WriteLine("Значение четное");
+         }
+         else
+         {
+            Console.WriteLine("Значение нечетное");
+         }
+      }
+   }
+}
