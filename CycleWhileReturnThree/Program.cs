@@ -13,18 +13,18 @@ namespace CycleWhileReturnThree
       // Основной метод расчета и обработки
       private static void CalculateAndProcess(double input)
       {
-         int iterationCount = 0;
+         int iteration = 0;
          double result = 0;
 
          // Цикл с ограничением в 10 итераций
-         while (iterationCount < 10)
+         while (iteration < 10)
          {
-            iterationCount++;
-            result = input * iterationCount;
+            iteration++;
+            result = input * iteration;
 
             // Выводим результат в консоль
             Console.Write(result);
-            Console.WriteLine("\nИтерация: {0}", iterationCount);
+            Console.WriteLine("\nИтерация: {0}", iteration);
 
             // Передаем результат в другой метод
             ProcessResult(result);
