@@ -17,7 +17,7 @@ namespace CycleWhileReturnThree
       {
          int iteration = 0;
 
-         // Цикл с ограничением в 10 итераций
+         // Бесконечный цикл
          while (true)
          {
             iteration++;
