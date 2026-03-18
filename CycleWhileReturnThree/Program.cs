@@ -6,7 +6,7 @@ namespace CycleWhileReturnThree
    {
       static void Main()
       {
-         double inputValue = 1024;
+         double input = 1024;
          CalculateAndProcess(inputValue);
       }
 
