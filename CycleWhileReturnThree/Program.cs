@@ -14,7 +14,7 @@ namespace CycleWhileReturnThree
       private static void CalculateAndProcess(double input)
       {
          int iteration = 0;
-         double result = 0;
+         double result;
 
          // Цикл с ограничением в 10 итераций
          while (iteration < 10)
