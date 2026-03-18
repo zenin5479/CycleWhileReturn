@@ -1,6 +1,6 @@
 ﻿using System;
 
-
+// Вариант без передачи результата на каждой итерации
 
 namespace CycleWhileReturnTwo
 {
