@@ -16,13 +16,12 @@ namespace CycleWhileReturnThree
       private static void CalculateAndProcess(double input)
       {
          int iteration = 0;
-         double result;
 
          // Цикл с ограничением в 10 итераций
          while (iteration < 10)
          {
             iteration++;
-            result = input * iteration;
+            var result = input * iteration;
 
             // Выводим результат в консоль
             Console.Write(result);
