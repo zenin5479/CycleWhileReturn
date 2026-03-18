@@ -1,6 +1,6 @@
 ﻿using System;
 
-// 
+// ешение с передачей результата в другой метод на каждой итерации:
 
 namespace CycleWhileReturnThree
 {
