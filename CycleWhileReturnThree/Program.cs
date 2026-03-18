@@ -25,7 +25,7 @@ namespace CycleWhileReturnThree
 
             // Выводим результат в консоль
             Console.Write(result);
-            Console.WriteLine("\nИтерация: {0}", iteration);
+            Console.WriteLine("Итерация: {0}, Результат: {1};", iteration, result);
 
             // Передаем результат в другой метод
             ProcessResult(result);
