@@ -1,5 +1,7 @@
 ﻿using System;
 
+// Вариант без передачи результана на каждой итерации
+
 namespace CycleWhileReturnOne
 {
    class Program
