@@ -18,7 +18,7 @@ namespace CycleWhileReturnThree
          int iteration = 0;
 
          // Цикл с ограничением в 10 итераций
-         while (iteration < 10)
+         while (true)
          {
             iteration++;
             double result = input * iteration;
