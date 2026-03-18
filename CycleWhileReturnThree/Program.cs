@@ -38,7 +38,7 @@ namespace CycleWhileReturnThree
          // Логика обработки
          Console.WriteLine("Обрабатываем значение: {0}", value);
 
-         // проверка на четность
+         // Проверка на четность
          if (value % 2 == 0)
          {
             Console.WriteLine("Значение четное");
