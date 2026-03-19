@@ -12,7 +12,7 @@ namespace CycleWhileReturnFour
          double input = 2048;
 
          // Получаем IEnumerable
-         IEnumerable<double> results = CalculateConsole(inputValue);
+         IEnumerable<double> results = CalculateConsole(input);
 
          // Получаем перечислитель
          IEnumerator<double> enumerator = results.GetEnumerator();
