@@ -1,6 +1,4 @@
-﻿
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 // Вариант с передачей результата в другой метод на каждой итерации
