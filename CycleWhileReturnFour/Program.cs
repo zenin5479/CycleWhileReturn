@@ -23,13 +23,13 @@ namespace CycleWhileReturnFour
          int iterationCount = 0;
 
          // Ограничение в 10 итераций
-         while (iterationCount < 10) 
+         while (iterationCount < 10)
          {
             iterationCount++;
             double result = input * iterationCount;
-            Console.WriteLine(string.Format("Итерация: {0}, Результат: {1}", iterationCount, result));
+            Console.WriteLine("Итерация: {0}, Результат: {1}", iterationCount, result);
             // Возвращаем результат на каждой итерации
-            yield return result; 
+            yield return result;
          }
       }
    }
