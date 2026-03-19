@@ -11,8 +11,6 @@ namespace CycleWhileReturnFour
       {
          double input = 2048;
 
-         double inputValue = 1024;
-
          // Получаем IEnumerable
          IEnumerable<double> results = CalculateConsole(inputValue);
 
