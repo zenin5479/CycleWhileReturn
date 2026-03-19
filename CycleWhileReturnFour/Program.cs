@@ -8,7 +8,7 @@ namespace CycleWhileReturnFour
    {
       static void Main()
       {
-         Console.WriteLine("Hello World!");
+
       }
    }
 }
