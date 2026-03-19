@@ -12,10 +12,10 @@ namespace CycleWhileReturnFour
          double input = 2048;
 
          // Перебираем результаты каждой итерации
-         foreach (double result in CalculateConsole(input))
-         {
-            Console.WriteLine("Полученный результат: {0}", result);
-         }
+         //foreach (double result in CalculateConsole(input))
+         //{
+         //   Console.WriteLine("Полученный результат: {0}", result);
+         //}
 
          while (true)
          {
