@@ -14,7 +14,7 @@ namespace CycleWhileReturnFour
          // Перебираем результаты каждой итерации
          foreach (var result in CalculateConsole(inputValue))
          {
-            Console.WriteLine($"Полученный результат: {result}");
+            Console.WriteLine("Полученный результат: {0}", result);
          }
       }
 
