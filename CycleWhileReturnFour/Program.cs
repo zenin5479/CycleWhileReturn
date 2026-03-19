@@ -21,7 +21,7 @@ namespace CycleWhileReturnFour
          while (enumerator.MoveNext())
          {
             double result = enumerator.Current;
-            Console.WriteLine(string.Format("Полученный результат: {0}", result));
+            Console.WriteLine("Полученный результат: {0}", result);
          }
 
          // Важно освободить ресурсы
