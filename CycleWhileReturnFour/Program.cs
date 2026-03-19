@@ -22,7 +22,8 @@ namespace CycleWhileReturnFour
       {
          int iterationCount = 0;
 
-         while (iterationCount < 10) // Ограничение в 10 итераций
+         // Ограничение в 10 итераций
+         while (iterationCount < 10) 
          {
             iterationCount++;
             double result = input * iterationCount;
