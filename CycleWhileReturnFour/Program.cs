@@ -9,7 +9,7 @@ namespace CycleWhileReturnFour
    {
       static void Main()
       {
-         double input = 1024;
+         double input = 2048;
 
          // Перебираем результаты каждой итерации
          foreach (var result in CalculateConsole(input))
