@@ -28,8 +28,8 @@ namespace CycleWhileReturnFour
             iterationCount++;
             double result = input * iterationCount;
             Console.WriteLine($"Итерация: {iterationCount}, Результат: {result}");
-            
-            yield return result; // Возвращаем результат на каждой итерации
+            // Возвращаем результат на каждой итерации
+            yield return result; 
          }
       }
    }
