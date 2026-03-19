@@ -11,17 +11,23 @@ namespace CycleWhileReturnFour
       {
          double input = 2048;
 
-         // Перебираем результаты каждой итерации
-         //foreach (double result in CalculateConsole(input))
-         //{
-         //   Console.WriteLine("Полученный результат: {0}", result);
-         //}
+         double inputValue = 1024;
 
-         while (true)
+         // Получаем IEnumerable
+         IEnumerable<double> results = CalculateConsole(inputValue);
+
+         // Получаем перечислитель
+         IEnumerator<double> enumerator = results.GetEnumerator();
+
+         // Используем while вместо foreach
+         while (enumerator.MoveNext())
          {
-             IEnumerable<double> result = CalculateConsole(input);
-            Console.WriteLine("Полученный результат: {0}", result);
+            double result = enumerator.Current;
+            Console.WriteLine($"Полученный результат: {result}");
          }
+
+         // Важно освободить ресурсы
+         enumerator.Dispose();
       }
 
       private static IEnumerable<double> CalculateConsole(double input)
@@ -29,7 +35,7 @@ namespace CycleWhileReturnFour
          int iterationCount = 0;
 
          // Ограничение в 10 итераций
-         while (iterationCount < 10)
+         while (true)
          {
             iterationCount++;
             double result = input * iterationCount;
