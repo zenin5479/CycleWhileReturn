@@ -16,6 +16,12 @@ namespace CycleWhileReturnFour
          {
             Console.WriteLine("Полученный результат: {0}", result);
          }
+
+         while (true)
+         {
+             IEnumerable<double> result = CalculateConsole(input);
+            Console.WriteLine("Полученный результат: {0}", result);
+         }
       }
 
       private static IEnumerable<double> CalculateConsole(double input)
