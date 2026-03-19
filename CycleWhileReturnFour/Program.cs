@@ -9,10 +9,10 @@ namespace CycleWhileReturnFour
    {
       static void Main()
       {
-         double inputValue = 1024;
+         double input = 1024;
 
          // Перебираем результаты каждой итерации
-         foreach (var result in CalculateConsole(inputValue))
+         foreach (var result in CalculateConsole(input))
          {
             Console.WriteLine("Полученный результат: {0}", result);
          }
