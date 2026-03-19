@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CycleWhileReturnOne", "Cycl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CycleWhileReturnTwo", "CycleWhileReturnTwo\CycleWhileReturnTwo.csproj", "{4DA2403E-52A8-4C5D-B3AD-31E83BCA634A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CycleWhileReturnThree", "CycleWhileReturnThree\CycleWhileReturnThree.csproj", "{092B11B3-3FB9-4C82-8123-07B5DA336884}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CycleWhileReturnThree", "CycleWhileReturnThree\CycleWhileReturnThree.csproj", "{092B11B3-3FB9-4C82-8123-07B5DA336884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CycleWhileReturnFour", "CycleWhileReturnFour\CycleWhileReturnFour.csproj", "{DB0D2025-6455-4243-9580-F41A70BBABFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{092B11B3-3FB9-4C82-8123-07B5DA336884}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{092B11B3-3FB9-4C82-8123-07B5DA336884}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{092B11B3-3FB9-4C82-8123-07B5DA336884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0D2025-6455-4243-9580-F41A70BBABFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0D2025-6455-4243-9580-F41A70BBABFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0D2025-6455-4243-9580-F41A70BBABFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0D2025-6455-4243-9580-F41A70BBABFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
