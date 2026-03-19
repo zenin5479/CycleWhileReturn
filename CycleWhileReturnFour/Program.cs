@@ -27,7 +27,7 @@ namespace CycleWhileReturnFour
          {
             iterationCount++;
             double result = input * iterationCount;
-            Console.WriteLine($"Итерация: {iterationCount}, Результат: {result}");
+            Console.WriteLine(string.Format("Итерация: {0}, Результат: {1}", iterationCount, result));
             // Возвращаем результат на каждой итерации
             yield return result; 
          }
