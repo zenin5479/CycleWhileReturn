@@ -1,5 +1,7 @@
 ﻿using System;
 
+
+
 namespace CycleWhileReturnFour
 {
    internal class Program
