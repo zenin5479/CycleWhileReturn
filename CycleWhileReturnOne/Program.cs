@@ -11,14 +11,14 @@ namespace CycleWhileReturnOne
          double input = 2048;
 
          // Используем long, чтобы избежать переполнения int
-         long iterations = 0;
+         long iteration = 0;
 
          // Бесконечный цикл
          while (true)
          {
-            iterations++;
-            double result = input * iterations;
-            Console.WriteLine("Итерация: {0}, Результат: {1};", iterations, result);
+            iteration++;
+            double result = input * iteration;
+            Console.WriteLine("Итерация: {0}, Результат: {1};", iteration, result);
          }
       }
    }
