@@ -9,8 +9,8 @@ namespace CycleWhileReturnFive
    {
       static void Main()
       {
-         double inputValue = 1024;
-         List<double> results = CalculateConsole(inputValue);
+         double input = 1024;
+         List<double> results = CalculateConsole(input);
 
          for (int i = 0; i < results.Count; i++)
          {
