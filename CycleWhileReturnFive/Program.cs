@@ -10,6 +10,8 @@ namespace CycleWhileReturnFive
       static void Main()
       {
          double input = 1024;
+
+         // Список List<double> является более гибким решением
          List<double> results = CalculateConsole(input);
 
          for (int i = 0; i < results.Count; i++)
