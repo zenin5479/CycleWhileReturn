@@ -12,8 +12,9 @@ namespace CycleWhileReturnFive
          double inputValue = 1024;
          List<double> results = CalculateConsole(inputValue);
 
-         foreach (var result in results)
+         for (var i = 0; i < results.Count; i++)
          {
+            var result = results[i];
             Console.WriteLine($"Результат: {result}");
          }
       }
