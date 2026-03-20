@@ -32,7 +32,7 @@ namespace CycleWhileReturnFour
       {
          int iteration = 0;
 
-         // Ограничение в 10 итераций
+         // Бесконечный цикл
          while (true)
          {
             iteration++;
