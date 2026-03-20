@@ -36,11 +36,9 @@ namespace CycleWhileReturnFive
 
             // Выводим результат в консоль
             Console.WriteLine("Итерация: {0}, Результат: {1}", iteration, result);
-            // Возвращаем результат на каждой итерации
-            yield return result;
          }
 
-         //return results;
+         return results;
       }
    }
 }
