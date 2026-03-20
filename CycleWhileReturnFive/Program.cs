@@ -13,11 +13,17 @@ namespace CycleWhileReturnFive
 
          // Список List<double> является более гибким решением
          List<double> results = CalculateConsole(input);
-
-         for (int i = 0; i < results.Count; i++)
+         int i = 0;
+         while (i < results.Count)
          {
             double result = results[i];
             Console.WriteLine("Результат: {0}", result);
+            i++;
+         }
+
+         for ()
+         {
+
          }
       }
 
