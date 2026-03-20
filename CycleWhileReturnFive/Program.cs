@@ -20,11 +20,6 @@ namespace CycleWhileReturnFive
             Console.WriteLine("Результат: {0}", result);
             i++;
          }
-
-         for ()
-         {
-
-         }
       }
 
       private static List<double> CalculateConsole(double input)
@@ -32,7 +27,7 @@ namespace CycleWhileReturnFive
          List<double> results = new List<double>();
          int iteration = 0;
 
-         while (iteration < 10)
+         while (iteration < 25)
          {
             iteration++;
             double result = input * iteration;
