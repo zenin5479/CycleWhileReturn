@@ -30,14 +30,14 @@ namespace CycleWhileReturnFour
 
       private static IEnumerable<double> CalculateConsole(double input)
       {
-         int iterationCount = 0;
+         int iteration = 0;
 
          // Ограничение в 10 итераций
-         while (iterationCount < 10)
+         while (iteration < 10)
          {
-            iterationCount++;
-            double result = input * iterationCount;
-            Console.WriteLine("Итерация: {0}, Результат: {1}", iterationCount, result);
+            iteration++;
+            double result = input * iteration;
+            Console.WriteLine("Итерация: {0}, Результат: {1}", iteration, result);
             // Возвращает результат на каждой итерации
             yield return result;
          }
