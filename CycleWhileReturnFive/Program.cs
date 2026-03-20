@@ -24,14 +24,14 @@ namespace CycleWhileReturnFive
       private static List<double> CalculateConsole(double input)
       {
          List<double> results = new List<double>();
-         int iterationCount = 0;
+         int iteration = 0;
 
-         while (iterationCount < 10)
+         while (iteration < 10)
          {
-            iterationCount++;
-            double result = input * iterationCount;
+            iteration++;
+            double result = input * iteration;
             results.Add(result);
-            Console.WriteLine("Итерация: {0}, Результат: {1}", iterationCount, result);
+            Console.WriteLine("Итерация: {0}, Результат: {1}", iteration, result);
          }
 
          return results;
