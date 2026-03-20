@@ -27,7 +27,7 @@ namespace CycleWhileReturnFive
          List<double> results = new List<double>();
          int iteration = 0;
 
-         while (iteration < 25)
+         while (iteration < 10)
          {
             iteration++;
             double result = input * iteration;
