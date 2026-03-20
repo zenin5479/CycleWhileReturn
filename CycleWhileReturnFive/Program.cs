@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-// Вариант с передачей результата в другой метод на каждой итерации
+// Вариант с передачей результата в другой метод
 
 namespace CycleWhileReturnFive
 {
