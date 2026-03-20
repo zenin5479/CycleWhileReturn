@@ -1,5 +1,7 @@
 ﻿// Вариант с передачей результата в другой метод на каждой итерации
 
+using System.Collections.Generic;
+
 namespace CycleWhileReturnFive
 {
    internal class Program
@@ -7,6 +9,21 @@ namespace CycleWhileReturnFive
       static void Main()
       {
 
+      }
+
+      private static List<double> CalculateConsole(double input)
+      {
+         List<double> results = new List<double>();
+         int iterationCount = 0;
+
+         while (iterationCount < 10)
+         {
+            iterationCount++;
+            double result = input * iterationCount;
+            results.Add(result);
+         }
+
+         return results;
       }
    }
 }
