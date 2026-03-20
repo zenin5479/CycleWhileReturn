@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 // Вариант с передачей результата в другой метод на каждой итерации
 
@@ -8,7 +9,13 @@ namespace CycleWhileReturnFive
    {
       static void Main()
       {
+         double inputValue = 1024;
+         List<double> results = CalculateConsole(inputValue);
 
+         foreach (var result in results)
+         {
+            Console.WriteLine($"Результат: {result}");
+         }
       }
 
       private static List<double> CalculateConsole(double input)
