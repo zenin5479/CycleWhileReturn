@@ -33,7 +33,7 @@ namespace CycleWhileReturnFour
          int iteration = 0;
 
          // Ограничение в 10 итераций
-         while (iteration < 10)
+         while (true)
          {
             iteration++;
             double result = input * iteration;
