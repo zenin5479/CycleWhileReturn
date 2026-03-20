@@ -27,6 +27,7 @@ namespace CycleWhileReturnFive
          List<double> results = new List<double>();
          int iteration = 0;
 
+         // Бесконечный цикл
          while (iteration < 10)
          {
             iteration++;
