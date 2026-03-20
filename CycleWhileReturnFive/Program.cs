@@ -9,7 +9,7 @@ namespace CycleWhileReturnFive
    {
       static void Main()
       {
-         double input = 1024;
+         double input = 2048;
 
          // Список List<double> является более гибким решением
          List<double> results = CalculateConsole(input);
@@ -33,6 +33,8 @@ namespace CycleWhileReturnFive
             iteration++;
             double result = input * iteration;
             results.Add(result);
+
+            // Выводим результат в консоль
             Console.WriteLine("Итерация: {0}, Результат: {1}", iteration, result);
          }
 
