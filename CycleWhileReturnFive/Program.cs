@@ -14,7 +14,7 @@ namespace CycleWhileReturnFive
 
          for (int i = 0; i < results.Count; i++)
          {
-            var result = results[i];
+            double result = results[i];
             Console.WriteLine($"Результат: {result}");
          }
       }
