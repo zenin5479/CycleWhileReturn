@@ -29,6 +29,7 @@ namespace CycleWhileReturnFive
             iterationCount++;
             double result = input * iterationCount;
             results.Add(result);
+            Console.WriteLine("Итерация: {0}, Результат: {1}", iterationCount, result);
          }
 
          return results;

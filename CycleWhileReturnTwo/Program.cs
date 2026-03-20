@@ -8,8 +8,8 @@ namespace CycleWhileReturnTwo
    {
       static void Main()
       {
-         double inputValue = 2048;
-         Calculate(inputValue);
+         double input = 2048;
+         Calculate(input);
       }
 
       private static void Calculate(double input)
