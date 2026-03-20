@@ -11,20 +11,20 @@ namespace CycleWhileReturnFour
       {
          double input = 2048;
 
-         // Получает IEnumerable
+         // Получаем IEnumerable
          IEnumerable<double> results = CalculateConsole(input);
 
-         // Получает перечислитель
+         // Получаем перечислитель
          IEnumerator<double> enumerator = results.GetEnumerator();
 
-         // Использует while
+         // Используем while
          while (enumerator.MoveNext())
          {
             double result = enumerator.Current;
             Console.WriteLine("Полученный результат: {0}", result);
          }
 
-         // Освобождает ресурсы
+         // Освобождаем ресурсы
          enumerator.Dispose();
       }
 
@@ -38,7 +38,7 @@ namespace CycleWhileReturnFour
             iteration++;
             double result = input * iteration;
             Console.WriteLine("Итерация: {0}, Результат: {1}", iteration, result);
-            // Возвращает результат на каждой итерации
+            // Возвращаем результат на каждой итерации
             yield return result;
          }
       }
