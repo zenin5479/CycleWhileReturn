@@ -17,7 +17,7 @@ namespace CycleWhileReturnFour
          // Получаем перечислитель
          IEnumerator<double> enumerator = results.GetEnumerator();
 
-         // Используем while
+         // Используем цикл while
          while (enumerator.MoveNext())
          {
             double result = enumerator.Current;
